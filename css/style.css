@@ -71,7 +71,7 @@ body{
     right: 130px;
 }
 .gallery img{
-    width: 1249px;
+    width: 100%;
 }
 .slide{
     display: flex;
@@ -79,7 +79,7 @@ body{
     padding-bottom: 31px;
 }
 .slide img{
-    width: 308px;
+    width: 24%;
 }
 .main_content{
     display: flex;
