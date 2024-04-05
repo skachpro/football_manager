@@ -72,6 +72,7 @@ body{
 }
 .gallery img{
     width: 100%;
+    padding-bottom: 10px;
 }
 .slide{
     display: flex;
@@ -114,12 +115,18 @@ body{
     color: #343434;
     font-size: 14px;
     line-height: 30px;
-    text-decoration: underline;
+    text-decoration: none;
     text-transform: uppercase;
-    
+    transition: .3s;
+}
+.aside-menu ul li a:hover{
+    text-decoration: underline;
 }
 .sam_text p{
     padding-bottom: 23px;
+}
+.sam_text:last-child{
+    padding-bottom: 50px;
 }
 .footer{    
     background-color: #39930d;
@@ -128,18 +135,27 @@ body{
 }
 .footer p{
 color: #fff;
+padding: 15px 0px 15px;
 }
 .footer_content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 82%;
-    padding-left: 135px;
+    padding-left: 135px;/* 
     padding-top: 8px;
-    padding-bottom: 3px;
+    padding-bottom: 3px; */
+}
+.social_icons {
+    align-items: center;
 }
 .social_icons a{
     padding-right: 10px;
 }
 .social_icons a img{
+    align-items: center;
     width: 23px;
+}
+.social_icons a:last-child{
+    padding: 0;
 }
