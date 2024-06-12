@@ -1,62 +1,71 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Arial";
 }
-body{
+
+body {
     background-color: #f3f3f3;
-    cursor: ;
 }
-.wrapper{
-    margin: 0px 120px;
-}
-.all{
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
     padding: 2px 15px;
     background-color: #fff;
 }
-.header_line{
+
+
+.header_line {
     display: flex;
     justify-content: space-between;
     margin: 15px 0px;
     align-items: center;
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: space-between;
 
 }
-.logo img{
+
+.logo img {
     width: 40px;
     height: 40px;
 }
-.nazva{
+
+.nazva {
     padding-left: 8px;
 }
-.nazva p{
+
+.nazva p {
     font-size: 14px;
     color: #5a5a5a;
 }
-.nazva b{
+
+.nazva b {
     font-size: 24px;
     text-transform: uppercase;
     color: #39930d;
     font-weight: bold;
 }
 
-.contacts b{
+.contacts b {
     font-size: 14px;
     color: #5a5a5a;
     font-weight: bold;
     position: relative;
     padding-right: 40px;
 }
-.contacts b:before{
+
+.contacts b:before {
     content: url(../images/grafik.png);
     box-sizing: content-box;
     position: absolute;
     right: 150px;
 }
-.contacts a{
+
+.contacts a {
     font-size: 14px;
     line-height: 7px;
     color: #5a5a5a;
@@ -64,33 +73,40 @@ body{
     text-decoration: none;
     position: relative;
 }
-.contacts a:before{
+
+.contacts a:before {
     content: url(../images/phone.png);
     box-sizing: content-box;
     position: absolute;
     right: 130px;
 }
-.gallery img{
+
+.gallery img {
     width: 100%;
     padding-bottom: 10px;
 }
-.slide{
+
+.slide {
     display: flex;
     justify-content: space-between;
     padding-bottom: 31px;
 }
-.slide img{
+
+.slide img {
     width: 24%;
 }
-.main_content{
+
+.main_content {
     display: flex;
     justify-content: space-between;
 }
-.main_text{
+
+.main_text {
     width: 70%;
     margin-bottom: 20px;
 }
-.main_text h1{
+
+.main_text h1 {
     font-size: 24px;
     line-height: 7px;
     color: #39930d;
@@ -98,7 +114,8 @@ body{
     padding-bottom: 23px;
     padding-top: 6px;
 }
-.main_content h2{
+
+.main_content h2 {
     background-color: #39930d;
     padding: 14px 72px 14px 19px;
     font-size: 18px;
@@ -106,12 +123,14 @@ body{
     color: #ffffff;
     font-weight: bold;
 }
-.aside-menu ul{
+
+.aside-menu ul {
     padding-top: 22px;
     list-style: none;
     padding-left: 22px;
 }
-.aside-menu ul li a{
+
+.aside-menu ul li a {
     color: #343434;
     font-size: 14px;
     line-height: 30px;
@@ -119,43 +138,51 @@ body{
     text-transform: uppercase;
     transition: .3s;
 }
-.aside-menu ul li a:hover{
+
+.aside-menu ul li a:hover {
     text-decoration: underline;
 }
-.sam_text p{
+
+.sam_text p {
     padding-bottom: 23px;
 }
-.sam_text:last-child{
+
+.sam_text:last-child {
     padding-bottom: 50px;
 }
-.footer{    
+
+.footer {
     background-color: #39930d;
     display: flex;
     justify-content: space-between;
 }
-.footer p{
-color: #fff;
-padding: 15px 0px 15px;
+
+.footer p {
+    color: #fff;
+    padding: 15px 0px 15px;
 }
-.footer_content{
+
+.footer_content {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 82%;
-    padding-left: 135px;/* 
-    padding-top: 8px;
-    padding-bottom: 3px; */
+    width: 80%;
 }
+
 .social_icons {
     align-items: center;
 }
-.social_icons a{
+
+.social_icons a {
     padding-right: 10px;
 }
-.social_icons a img{
+
+.social_icons a img {
     align-items: center;
     width: 23px;
 }
-.social_icons a:last-child{
+
+.social_icons a:last-child {
     padding: 0;
 }
