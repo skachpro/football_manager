@@ -34,16 +34,16 @@ body {
     height: 40px;
 }
 
-.nazva {
+.heading {
     padding-left: 8px;
 }
 
-.nazva p {
+.heading p {
     font-size: 14px;
     color: #5a5a5a;
 }
 
-.nazva b {
+.heading b {
     font-size: 24px;
     text-transform: uppercase;
     color: #39930d;
