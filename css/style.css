@@ -60,10 +60,11 @@ body {
 }
 .contacts{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: end;
     gap: 20px;
     flex-wrap: wrap;
-    text-align: right;
+    /* text-align: right; */
     padding-left: 30px;
 }
 
@@ -83,6 +84,8 @@ body {
 }
 
 .contacts a {
+    align-self: end;
+    flex-grow: 1;
     font-size: 14rem;
     color: #5a5a5a;
     font-weight: bold;
@@ -94,7 +97,7 @@ body {
     content: url(../images/phone.png);
     box-sizing: content-box;
     position: absolute;
-    right: 130px;
+    left: -25px;
 }
 main{
     padding-bottom: 30px;
