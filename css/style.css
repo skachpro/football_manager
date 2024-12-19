@@ -65,25 +65,28 @@ body {
     gap: 20px;
     flex-wrap: wrap;
     /* text-align: right; */
-    padding-left: 30px;
 }
 
 .contacts b {
+    min-width: 135px;
     font-size: 14rem;
     color: #5a5a5a;
     font-weight: bold;
     position: relative;
-    padding-right: 40px;
+    padding-left: 30px;
 }
 
 .contacts b:before {
     content: url(../images/grafik.png);
     box-sizing: content-box;
     position: absolute;
-    right: 150px;
+    top: -2px;
+    left: 0px;
 }
 
 .contacts a {
+    min-width: 135px;
+    padding-left: 25px;
     align-self: end;
     flex-grow: 1;
     font-size: 14rem;
@@ -97,7 +100,8 @@ body {
     content: url(../images/phone.png);
     box-sizing: content-box;
     position: absolute;
-    left: -25px;
+    top: -2px;
+    left: 0px;
 }
 main{
     padding-bottom: 30px;
@@ -197,17 +201,17 @@ section h1 {
     color: #343434;
     font-size: 14rem;
     line-height: 30rem;
-    text-decoration: none;
     text-transform: uppercase;
     transition: .3s;
 }
 
 .aside-menu ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .sam_text p {
     padding-bottom: 23px;
+    line-height: 21px;
 }
 
 /* .sam_text:last-child {
